@@ -1,3 +1,10 @@
+import { Menu } from "../../Main-components/Menu/Menu";
+import "./Home.css";
+
 export function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <Menu />
+    </main>
+  );
 }

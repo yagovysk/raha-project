@@ -1,3 +1,10 @@
+import { Menu } from "../../Main-components/Menu/Menu";
+import "./Services.css";
+
 export function Services() {
-  return <section></section>;
+  return (
+    <section>
+      <Menu />
+    </section>
+  );
 }

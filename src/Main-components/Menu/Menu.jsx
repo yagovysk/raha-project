@@ -49,7 +49,7 @@ export function Menu() {
             to="descontos"
             onClick={closeMenu}
           >
-            Veja nossos descontos
+            Ofertas e descontos
           </Link>
         </li>
         <li>

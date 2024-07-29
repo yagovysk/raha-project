@@ -79,7 +79,7 @@ export function Menu() {
         </div>
       )}
       <a
-        href="https://wa.me/556199845648?text=Olá, vim pelo site, gostaria de mais informações."
+        href="https://wa.me/556130201781?text=Olá, vim pelo site, gostaria marcar uma consulta."
         className="button"
         target="_blank"
       >

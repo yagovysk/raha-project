@@ -5,7 +5,8 @@
   padding: 1.3rem 0rem;
   justify-content: space-around;
   align-items: center;
-  height: 3rem;
+  height: 4rem;
+  overflow-y: hidden;
   width: 100%;
   background: #f4f4f4;
 }
@@ -28,6 +29,7 @@
   list-style: none;
   display: flex;
   align-items: center;
+
   gap: 4rem;
 }
 
@@ -40,6 +42,7 @@
   position: relative;
   font-family: "Open sans", sans-serif;
   font-size: 1.0625rem;
+  height: 1.5rem;
   font-style: normal;
   font-weight: 600;
   transition: 0.3s;
@@ -48,7 +51,7 @@
 .Menu-ul > li::before {
   content: "";
   position: absolute;
-  top: 1.5rem;
+  top: 1.3rem;
   bottom: 0;
   left: 0;
   width: 0; /* Inicialmente sem largura */

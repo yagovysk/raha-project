@@ -134,6 +134,7 @@
 
   .Menu-ul {
     position: fixed;
+    padding-top: 2rem;
     top: 0;
     left: 50%;
     background-color: white;
@@ -173,7 +174,7 @@
   .menu-close-icon {
     display: block;
     position: fixed;
-    top: 0%;
+    top: 1%;
     right: 5px;
     font-size: 1.5rem;
     cursor: pointer;

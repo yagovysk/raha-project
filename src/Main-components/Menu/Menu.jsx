@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import "./Menu.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.svg";
 import { Link as RouterLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";

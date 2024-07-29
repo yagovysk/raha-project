@@ -13,7 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 15rem;
+  padding-top: 25rem;
   gap: 1rem;
 }
 .start-button h1 {
@@ -33,7 +33,7 @@
     height: 80vh; /* Reduz a altura da seção em telas menores */
   }
   .start-button {
-    margin-top: 13rem;
+    padding-top: 19rem;
   }
   .start-button h1 {
     font-size: 1.1rem;
@@ -45,5 +45,22 @@
 @media (max-width: 480px) {
   .section-start {
     height: 70vh; /* Reduz ainda mais a altura da seção */
+  }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+  .start-button {
+    padding-top: 35rem;
+    text-align: center;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .start-button {
+    padding-top: 38rem;
+    text-align: center;
+  }
+}
+@media (min-width: 1920px) {
+  .start-button {
+    padding-top: 40rem;
   }
 }

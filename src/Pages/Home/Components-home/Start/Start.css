@@ -1,9 +1,8 @@
 .section-start {
-  background: url("../../../../assets/start-background.webp") center center
-    no-repeat;
+  background: url("../../../../assets/start-background.webp") no-repeat;
   background-size: cover; /* Faz a imagem cobrir toda a largura e altura do elemento */
   width: 100%;
-  height: 108vh;
+  height: 120vh;
   display: flex; /* Usa flexbox para centralizar o conteúdo */
   align-items: center; /* Alinha verticalmente ao centro */
   justify-content: center; /* Alinha horizontalmente ao centro */
@@ -13,8 +12,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 25rem;
-  gap: 1rem;
+  padding-top: 24rem !important;
+  gap: 0.5rem;
 }
 .start-button h1 {
   font-family: "Lora", serif;
@@ -30,37 +29,84 @@
 }
 @media (max-width: 768px) {
   .section-start {
+    background: url("../../../../assets/start-background.webp") center center
+      no-repeat;
+    background-size: cover;
     height: 80vh; /* Reduz a altura da seção em telas menores */
   }
   .start-button {
-    padding-top: 19rem;
+    padding-top: 15.5rem !important;
   }
   .start-button h1 {
     font-size: 1.1rem;
     font-weight: 500;
     text-align: center;
   }
+  .start-button a {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
 }
 
 @media (max-width: 480px) {
   .section-start {
+    background: url("../../../../assets/start-background.webp") center center
+      no-repeat;
+    background-size: cover;
     height: 70vh; /* Reduz ainda mais a altura da seção */
   }
+
+  .start-button a {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
 }
-@media (min-width: 900px) and (max-width: 1200px) {
+@media (min-width: 850px) {
+  .section-start {
+    background: url("../../../../assets/start-background.webp") center center
+      no-repeat;
+    background-size: cover;
+  }
   .start-button {
-    padding-top: 35rem;
+    padding-top: 45rem;
     text-align: center;
   }
 }
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 600px) {
+  .section-start {
+    background: url("../../../../assets/start-background.webp") center center
+      no-repeat;
+    background-size: cover;
+  }
   .start-button {
-    padding-top: 38rem;
+    padding-top: 20rem;
     text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .section-start {
+    background: url("../../../../assets/start-background.webp") center center
+      no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 1400px) {
+  .section-start {
+    background: url("../../../../assets/start-background.webp") center center
+      no-repeat;
+    background-size: cover;
+  }
+  .start-button {
+    margin-top: 1rem !important;
   }
 }
 @media (min-width: 1920px) {
+  .section-start {
+    background: url("../../../../assets/start-background.webp") center center
+      no-repeat;
+    background-size: cover;
+  }
   .start-button {
-    padding-top: 40rem;
+    padding-top: 30rem;
   }
 }

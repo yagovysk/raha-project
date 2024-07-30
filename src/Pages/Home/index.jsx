@@ -9,8 +9,8 @@ export function Home() {
     <main>
       <Menu />
       <Start />
-      <Discount />
       <About />
+      <Discount />
     </main>
   );
 }

@@ -1,0 +1,23 @@
+.carousel {
+  background-color: #00b5a5;
+}
+.text-slide {
+  background-color: #00b5a5;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  height: 100vh; /* Altura total da tela */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-slide h3 {
+  font-size: 1.5rem;
+}
+
+.text-slide p {
+  margin: 0;
+  font-size: 1rem;
+}

@@ -11,13 +11,76 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 3rem;
 }
 
 .text-slide h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+.text-slide .span {
+  background-color: #72004b;
+  border-radius: 30px;
+  align-items: center;
+
+  padding: 0.8rem;
+  color: #fff;
+}
+.article-slide {
+  display: flex;
+  gap: 0.5rem;
+}
+.article-slide .discount-paragraph {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  background-color: #72004b;
+  padding: 0.5rem;
+  border-radius: 20px;
   font-size: 1.5rem;
 }
-
-.text-slide p {
-  margin: 0;
-  font-size: 1rem;
+.paragraph-discount {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecd9ba;
+  border-radius: 20px;
+  padding: 0.5rem;
+  color: #72004b;
+  font-family: "Palyfair display", sans-serif;
+}
+.paragraph-discount .price {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  color: #999;
+}
+.text-slide a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Palyfair display", sans-serif;
+  text-decoration: none;
+  background-color: #1fa386;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 40px;
+  font-size: 1.8rem;
+  transition: 0.3s ease;
+}
+.discount-icon {
+  background-color: #fff;
+  color: #1fa386;
+  border-radius: 100%;
+  transition: transform 0.6s ease, rotate 0.6s ease;
+  padding: 0.5rem;
+}
+.text-slide a:hover {
+  transform: scale(1.1);
+}
+.text-slide a:hover .discount-icon {
+  transform: rotate(360deg);
 }

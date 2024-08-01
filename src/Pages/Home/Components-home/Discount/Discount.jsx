@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { FaLink } from "react-icons/fa";
 import "./Discount.css";
 
 export function Discount() {
@@ -31,14 +32,29 @@ export function Discount() {
       infinite={true}
       showDots={true} // Adiciona pontos de navegação
     >
-      <div className="text-slide">
+      <div className="text-slide" id="descontos">
         <h3>
-          Descontos do mês de <span>Agosto</span>
+          Promoção mês de <div className="span">Agosto</div>
         </h3>
-        <p>Ganhe desconto na sessão de Fisioterapia</p>
-        <p>
-          de <span>R$ 90,00</span> por R$ 70,00
-        </p>
+        <article className="article-slide">
+          <p className="discount-paragraph">
+            Ganhe desconto na sessão de Fisioterapia
+          </p>
+          <p className="paragraph-discount">
+            de <div className="price">R$ 90,00</div> por R$ 70,00
+          </p>
+        </article>
+        <article className="article-slide">
+          <p className="discount-paragraph">
+            Ganhe desconto na Limpeza de pele
+          </p>
+          <p className="paragraph-discount">
+            de <div className="price">R$ 80,00</div> por R$ 60,00
+          </p>
+        </article>
+        <a href="">
+          <FaLink className="discount-icon" /> Garanta já o seu desconto!
+        </a>
       </div>
       <div className="text-slide">
         <h3>Slide 2</h3>

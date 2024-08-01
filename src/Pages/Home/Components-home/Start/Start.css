@@ -1,5 +1,6 @@
 .section-start {
-  background: url("../../../../assets/start-background.webp") no-repeat;
+  background: url("../../../../assets/start-background.webp") center center
+    no-repeat;
   background-size: cover; /* Faz a imagem cobrir toda a largura e altura do elemento */
   width: 100%;
   height: 120vh;
@@ -10,11 +11,12 @@
 .start-button {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   padding-top: 24rem !important;
   gap: 0.5rem;
 }
+
 .start-button h1 {
   font-family: "Lora", serif;
   font-size: 2.2rem;
@@ -61,52 +63,18 @@
     padding: 0.5rem;
   }
 }
-@media (min-width: 850px) {
-  .section-start {
-    background: url("../../../../assets/start-background.webp") center center
-      no-repeat;
-    background-size: cover;
-  }
+@media (min-width: 1930px) {
   .start-button {
-    padding-top: 45rem;
-    text-align: center;
+    padding-top: 33rem !important;
   }
 }
-@media (min-width: 600px) {
-  .section-start {
-    background: url("../../../../assets/start-background.webp") center center
-      no-repeat;
-    background-size: cover;
-  }
+@media (min-width: 900px) and (max-width: 1535px) {
   .start-button {
-    padding-top: 20rem;
-    text-align: center;
+    padding-top: 32rem !important;
   }
 }
-@media (min-width: 1200px) {
-  .section-start {
-    background: url("../../../../assets/start-background.webp") center center
-      no-repeat;
-    background-size: cover;
-  }
-}
-@media (min-width: 1400px) {
-  .section-start {
-    background: url("../../../../assets/start-background.webp") center center
-      no-repeat;
-    background-size: cover;
-  }
+@media (min-width: 1537px) and (max-width: 1930px) {
   .start-button {
-    margin-top: 1rem !important;
-  }
-}
-@media (min-width: 1920px) {
-  .section-start {
-    background: url("../../../../assets/start-background.webp") center center
-      no-repeat;
-    background-size: cover;
-  }
-  .start-button {
-    padding-top: 30rem;
+    padding-top: 35rem !important;
   }
 }

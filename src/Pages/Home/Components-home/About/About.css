@@ -1,6 +1,7 @@
 .section-about {
   background: #f6f2e7;
   display: flex;
+  justify-content: center;
 
   gap: 1rem;
 }

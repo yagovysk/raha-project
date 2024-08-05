@@ -1,5 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import father from "../../../../assets/father-day.png";
+import { FaArrowCircleDown } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import "./Discount.css";
 
@@ -56,13 +58,16 @@ export function Discount() {
           <FaLink className="discount-icon" /> Garanta já o seu desconto!
         </a>
       </div>
-      <div className="text-slide">
-        <h3>Slide 2</h3>
-        <p>Este é o conteúdo do segundo slide.</p>
-      </div>
-      <div className="text-slide">
-        <h3>Slide 3</h3>
-        <p>Este é o conteúdo do terceiro slide.</p>
+      <div className="slide-discount">
+        <img src={father} alt="" />
+        <article>
+          <h3>35% de desconto</h3>
+          <p>Em todos os procedimentos</p>
+          <p>entre 5 a 10 de agosto</p>
+          <a href="" target="blank">
+            <FaArrowCircleDown className="icon-arrow" />
+          </a>
+        </article>
       </div>
     </Carousel>
   );

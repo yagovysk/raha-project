@@ -13,10 +13,11 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 24rem !important;
-  gap: 0.5rem;
 }
-
+.start-button .logo-background {
+  width: 20rem;
+  margin-bottom: -1rem;
+}
 .start-button h1 {
   font-family: "Lora", serif;
   font-size: 2.2rem;
@@ -31,13 +32,10 @@
 }
 @media (max-width: 768px) {
   .section-start {
-    background: url("../../../../assets/start-background.webp") center center
-      no-repeat;
-    background-size: cover;
     height: 80vh; /* Reduz a altura da seção em telas menores */
   }
-  .start-button {
-    padding-top: 15.5rem !important;
+  .start-button .logo-background {
+    width: 15rem;
   }
   .start-button h1 {
     font-size: 1.1rem;
@@ -52,29 +50,13 @@
 
 @media (max-width: 480px) {
   .section-start {
-    background: url("../../../../assets/start-background.webp") center center
-      no-repeat;
-    background-size: cover;
     height: 70vh; /* Reduz ainda mais a altura da seção */
   }
-
+  .start-button .logo-background {
+    width: 15rem;
+  }
   .start-button a {
     font-size: 0.7rem;
     padding: 0.5rem;
-  }
-}
-@media (min-width: 1930px) {
-  .start-button {
-    padding-top: 33rem !important;
-  }
-}
-@media (min-width: 900px) and (max-width: 1535px) {
-  .start-button {
-    padding-top: 32rem !important;
-  }
-}
-@media (min-width: 1537px) and (max-width: 1930px) {
-  .start-button {
-    padding-top: 35rem !important;
   }
 }

@@ -44,22 +44,27 @@
 @media (max-width: 768px) {
   .section-about {
     flex-direction: column-reverse;
-    padding: 1rem 0;
-  }
-  .section-about .img-about {
-    width: 20rem;
-  }
-  .article-about {
     align-items: center;
     padding: 0;
   }
+  .section-about .img-about {
+    width: 20rem !important;
+    margin-top: 0;
+  }
+  .article-about {
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
   .article-about h2 {
+    font-size: 2rem;
     padding: 0;
   }
   .article-about p {
     font-size: 1rem;
-    padding: 0;
     width: 20rem;
+    padding: 0;
+
     text-align: center;
   }
   .article-about img {

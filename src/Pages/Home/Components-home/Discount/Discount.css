@@ -51,18 +51,66 @@
   border-radius: 20px;
   padding: 0.5rem;
   color: #72004b;
-  font-family: "Palyfair display", sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }
 .paragraph-discount .price {
   text-decoration: line-through;
   text-decoration-color: red;
   color: #999;
 }
+.slide-discount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00b5a5;
+
+  height: 100vh;
+}
+.slide-discount img {
+  position: relative;
+  width: 100%;
+}
+.slide-discount article {
+  position: absolute;
+  top: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  gap: 1rem;
+}
+.slide-discount article h3 {
+  background: #00b5a5;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 35px;
+  color: #fff;
+}
+.slide-discount article p {
+  font-family: "Comfortaa", sans-serif;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.icon-arrow {
+  color: #00b5a5;
+  font-size: 2rem;
+}
+.slide-discount article a {
+  display: flex;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+.slide-discount article a:hover {
+  transform: translateY(4px);
+}
 .text-slide a {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-family: "Palyfair display", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   text-decoration: none;
   background-color: #1fa386;
   color: #fff;
@@ -83,4 +131,45 @@
 }
 .text-slide a:hover .discount-icon {
   transform: rotate(360deg);
+}
+@media (max-width: 768px) {
+  .carousel {
+    height: 60vh;
+  }
+  .text-slide h3 {
+    font-size: 1.3rem;
+  }
+  .article-slide {
+    flex-direction: column;
+  }
+  .article-slide .discount-paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+  .paragraph-discount {
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    gap: 0.2rem;
+    width: 10rem;
+  }
+  .text-slide a {
+    font-size: 1rem;
+  }
+  .slide-discount article {
+    gap: 0.2rem;
+    top: 35%;
+  }
+  .slide-discount article h3 {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+  .slide-discount article p {
+    font-size: 0.7rem;
+  }
+  .icon-arrow {
+    font-size: 1rem;
+  }
 }

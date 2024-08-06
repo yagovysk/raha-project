@@ -13,14 +13,15 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  gap: 0.5rem;
 }
 .start-button .logo-background {
   width: 20rem;
   margin-bottom: -1rem;
 }
 .start-button h1 {
-  font-family: "Lora", serif;
-  font-size: 2.2rem;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 2rem;
   color: #72004b;
 }
 .start-button a {

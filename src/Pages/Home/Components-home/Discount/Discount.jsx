@@ -54,7 +54,10 @@ export function Discount() {
             de <div className="price">R$ 80,00</div> por R$ 60,00
           </p>
         </article>
-        <a href="">
+        <a
+          href="https://wa.me/556130201781?text=Olá, vim pelo site, gostaria de garantir meu desconto do mês de Agosto."
+          target="blank"
+        >
           <FaLink className="discount-icon" /> Garanta já o seu desconto!
         </a>
       </div>
@@ -64,7 +67,10 @@ export function Discount() {
           <h3>35% de desconto</h3>
           <p>Em todos os procedimentos</p>
           <p>entre 5 a 10 de agosto</p>
-          <a href="" target="blank">
+          <a
+            href="https://wa.me/556130201781?text=Olá, vim pelo site, gostaria de garantir meu desconto do dia dos Pais."
+            target="blank"
+          >
             <FaArrowCircleDown className="icon-arrow" />
           </a>
         </article>

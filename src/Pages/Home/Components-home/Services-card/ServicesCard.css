@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4rem 2rem;
+  padding: 4rem 0rem;
   gap: 2rem;
 }
 .cards-section h2 {
@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
-  gap: 2rem;
+  gap: 1rem;
 }
 .cards {
   display: flex;
@@ -27,6 +27,7 @@
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.836);
   border-radius: 15px;
+
   padding: 1rem;
   gap: 1rem;
 }
@@ -35,7 +36,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  padding: 0 1rem;
+  gap: 1rem;
 }
 .card-article h3 {
   font-family: "Comfortaa", sans-serif;
@@ -44,6 +46,18 @@
 .card-article p {
   font-family: "Comfortaa", sans-serif;
   text-align: center;
+  width: 15rem;
+}
+.card-article img {
+  width: 18rem;
+  height: 10rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.46);
+  border-radius: 10px;
+  transition: 0.4s ease;
+  cursor: zoom-in;
+}
+.card-article img:hover {
+  transform: scale(1.05);
 }
 .card-button {
   display: flex;
@@ -55,4 +69,13 @@
 }
 .card-button:hover {
   transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  .container-cards {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .card-article img {
+    width: 15rem;
+  }
 }

@@ -13,11 +13,13 @@
   color: #00b5a5;
 }
 .container-cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas de igual largura */
+  grid-template-rows: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
-  gap: 1rem;
+  gap: 2rem;
 }
 .cards {
   display: flex;
@@ -46,7 +48,8 @@
 .card-article p {
   font-family: "Comfortaa", sans-serif;
   text-align: center;
-  width: 15rem;
+  font-size: 0.9rem;
+  width: 15.5rem;
 }
 .card-article img {
   width: 18rem;
@@ -72,6 +75,7 @@
 }
 @media (max-width: 768px) {
   .container-cards {
+    display: flex;
     flex-direction: column;
     gap: 2rem;
   }

@@ -8,6 +8,12 @@ import masso from "../../../assets/massagem.jpg";
 import acun from "../../../assets/acupuntura.jpg";
 import fisio1 from "../../../assets/All-services-imgs/fisio1.jpg";
 import fisio2 from "../../../assets/All-services-imgs/fisio2.jpg";
+import ventosa from "../../../assets/All-services-imgs/ventosa.jpg";
+import linfatica from "../../../assets/All-services-imgs/linfatica.jpg";
+import pelvica from "../../../assets/All-services-imgs/pelvica.jpg";
+import ortognatica from "../../../assets/All-services-imgs/ortognatica.jpeg";
+import depil from "../../../assets/All-services-imgs/depilacao.jpeg";
+import limp from "../../../assets/All-services-imgs/limp.jpg";
 import "./All.css";
 
 Modal.setAppElement("#root");
@@ -42,62 +48,38 @@ export function AllServices() {
     },
     {
       id: 5,
-      title: "Fisioterapia Orofacial",
-      images: [
-        "/path/to/image1.jpg",
-        "/path/to/image2.jpg",
-        "/path/to/image3.jpg",
-      ],
+      title: "Ventosaterapia",
+      images: [ventosa, "/path/to/image2.jpg", "/path/to/image3.jpg"],
       description: "Descrição detalhada do Serviço 2.",
     },
     {
       id: 6,
-      title: "Fisioterapia Orofacial",
-      images: [
-        "/path/to/image1.jpg",
-        "/path/to/image2.jpg",
-        "/path/to/image3.jpg",
-      ],
+      title: "Drenagem Linfática",
+      images: [linfatica, "/path/to/image2.jpg", "/path/to/image3.jpg"],
       description: "Descrição detalhada do Serviço 2.",
     },
     {
       id: 7,
-      title: "Fisioterapia Orofacial",
-      images: [
-        "/path/to/image1.jpg",
-        "/path/to/image2.jpg",
-        "/path/to/image3.jpg",
-      ],
+      title: "Fisioterapia Pélvica",
+      images: [pelvica, "/path/to/image2.jpg", "/path/to/image3.jpg"],
       description: "Descrição detalhada do Serviço 2.",
     },
     {
       id: 8,
-      title: "Fisioterapia Orofacial",
-      images: [
-        "/path/to/image1.jpg",
-        "/path/to/image2.jpg",
-        "/path/to/image3.jpg",
-      ],
+      title: "Cirurgia Ortognática",
+      images: [ortognatica, "/path/to/image2.jpg", "/path/to/image3.jpg"],
       description: "Descrição detalhada do Serviço 2.",
     },
     {
       id: 9,
-      title: "Fisioterapia Orofacial",
-      images: [
-        "/path/to/image1.jpg",
-        "/path/to/image2.jpg",
-        "/path/to/image3.jpg",
-      ],
+      title: "Depilação",
+      images: [depil, "/path/to/image2.jpg", "/path/to/image3.jpg"],
       description: "Descrição detalhada do Serviço 2.",
     },
     {
       id: 10,
-      title: "Fisioterapia Orofacial",
-      images: [
-        "/path/to/image1.jpg",
-        "/path/to/image2.jpg",
-        "/path/to/image3.jpg",
-      ],
+      title: "Limpeza de Pele",
+      images: [limp, "/path/to/image2.jpg", "/path/to/image3.jpg"],
       description: "Descrição detalhada do Serviço 2.",
     },
     {
@@ -159,7 +141,7 @@ export function AllServices() {
 
   return (
     <section className="section-all">
-      <h2>Conheça todos os nossos serviços.</h2>
+      <h2>Conheça todos os nossos serviços</h2>
       <div className="container-services">
         {services.map((service) => (
           <div
@@ -191,6 +173,9 @@ export function AllServices() {
             ))}
           </Carousel>
           <p>{selectedService.description}</p>
+          <a href="" target="blank">
+            Agende já!
+          </a>
           <div className="modal-button">
             <button onClick={() => setSelectedService(null)}>Fechar</button>
           </div>

@@ -9,13 +9,21 @@ import oro2 from "../../../assets/All-services-imgs/oro2.jpg";
 import masso from "../../../assets/massagem.jpg";
 import masso2 from "../../../assets/All-services-imgs/masso-2.jpg";
 import acun from "../../../assets/acupuntura.jpg";
+import acun2 from "../../../assets/All-services-imgs/acupuntura-2.jpg";
 import fisio1 from "../../../assets/All-services-imgs/fisio1.jpg";
 import fisio2 from "../../../assets/All-services-imgs/fisio2.jpg";
 import ventosa from "../../../assets/All-services-imgs/ventosa.jpg";
+import ventosa2 from "../../../assets/All-services-imgs/ventosa-2.jpg";
 import linfatica from "../../../assets/All-services-imgs/linfatica.jpg";
+import linfatica2 from "../../../assets/All-services-imgs/linf-2.jpg";
+import linfatica3 from "../../../assets/All-services-imgs/linf-3.jpg";
 import pelvica from "../../../assets/All-services-imgs/pelvica.jpg";
+import pelvica2 from "../../../assets/All-services-imgs/pelv-2.jpg";
 import ortognatica from "../../../assets/All-services-imgs/ortognatica.jpeg";
-import depil from "../../../assets/All-services-imgs/depilacao.jpeg";
+import depil from "../../../assets/All-services-imgs/depilacao.jpg";
+import depil2 from "../../../assets/All-services-imgs/depilacao-2.jpg";
+import depil3 from "../../../assets/All-services-imgs/depilacao-3.jpg";
+import depil4 from "../../../assets/All-services-imgs/depilacao-4.jpg";
 import limp from "../../../assets/All-services-imgs/limp.jpg";
 import limp2 from "../../../assets/All-services-imgs/limp-2.jpg";
 import limp3 from "../../../assets/All-services-imgs/limp-3.jpg";
@@ -77,7 +85,7 @@ export function AllServices() {
     {
       id: 4,
       title: "Acupuntura",
-      images: [acun, "/path/to/image2.jpg", "/path/to/image3.jpg"],
+      images: [acun, acun2],
       description: `A Acupuntura é uma técnica milenar que consiste na inserção de agulhas em pontos específicos do corpo para estimular terminações nervosas e tratar doenças físicas e emocionais.
 
       Essa técnica auxilia no alívio de dores, ansiedade, insônia, enxaquecas, e muito mais. Qualquer pessoa pode fazer acupuntura, esteja doente ou não.`,
@@ -86,7 +94,7 @@ export function AllServices() {
     {
       id: 5,
       title: "Ventosaterapia",
-      images: [ventosa, "/path/to/image2.jpg", "/path/to/image3.jpg"],
+      images: [ventosa, ventosa2],
       description: `A Ventosaterapia é uma técnica terapêutica da Medicina Tradicional Chinesa que utiliza copos de vidro ou acrílico para ativar a circulação, eliminar toxinas e melhorar o funcionamento dos órgãos.
 
       Essa terapia auxilia no tratamento de dores musculares, lombalgias, artrite, hipertensão, gripe, problemas digestivos, e também pode ser usada com objetivos estéticos.`,
@@ -95,7 +103,7 @@ export function AllServices() {
     {
       id: 6,
       title: "Drenagem Linfática",
-      images: [linfatica, "/path/to/image2.jpg", "/path/to/image3.jpg"],
+      images: [linfatica, linfatica2, linfatica3],
       description: `A Drenagem Linfática estimula o sistema circulatório com suaves compressões nos principais pontos de acúmulo de líquidos.
 
       Benefícios incluem combate ao inchaço, auxílio na recuperação de lesões, liberação de toxinas corporais, e melhora na oxigenação dos tecidos do corpo.
@@ -107,7 +115,7 @@ export function AllServices() {
     {
       id: 7,
       title: "Fisioterapia Pélvica",
-      images: [pelvica, "/path/to/image2.jpg", "/path/to/image3.jpg"],
+      images: [pelvica, pelvica2],
       description: `A Fisioterapia Pélvica atua na reabilitação das disfunções do assoalho pélvico, que sustenta órgãos como a bexiga, útero e intestino.
 
       Benefícios incluem a redução de dores no parto, prevenção de disfunções pós-parto, melhora das dores pélvicas crônicas, e tratamento de incontinências urinária e fecal.`,
@@ -127,7 +135,7 @@ export function AllServices() {
     {
       id: 9,
       title: "Depilação",
-      images: [depil, "/path/to/image2.jpg", "/path/to/image3.jpg"],
+      images: [depil, depil2, depil3, depil4],
       description: `A depilação a cera e a epilação removem os pelos pela raiz, proporcionando uma pele lisa por mais tempo, entre 3 a 6 semanas.
 
       Esses métodos oferecem vantagens como esfoliação da pele, deixando-a mais suave e macia, e resultados mais duradouros em comparação com a depilação tradicional com lâmina.`,

@@ -2,41 +2,51 @@ import { useState } from "react";
 import Modal from "react-modal";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import orto from "../../../assets/fisioterapia-ortopedica.jpg";
-import orto2 from "../../../assets/All-services-imgs/orto-2.jpg";
-import oro from "../../../assets/Orofacial.jpg";
-import oro2 from "../../../assets/All-services-imgs/oro2.jpg";
-import masso from "../../../assets/massagem.jpg";
-import masso2 from "../../../assets/All-services-imgs/masso-2.jpg";
-import acun from "../../../assets/acupuntura.jpg";
-import acun2 from "../../../assets/All-services-imgs/acupuntura-2.jpg";
-import fisio1 from "../../../assets/All-services-imgs/fisio1.jpg";
-import fisio2 from "../../../assets/All-services-imgs/fisio2.jpg";
-import ventosa from "../../../assets/All-services-imgs/ventosa.jpg";
-import ventosa2 from "../../../assets/All-services-imgs/ventosa-2.jpg";
-import linfatica from "../../../assets/All-services-imgs/linfatica.jpg";
-import linfatica2 from "../../../assets/All-services-imgs/linf-2.jpg";
-import linfatica3 from "../../../assets/All-services-imgs/linf-3.jpg";
-import pelvica from "../../../assets/All-services-imgs/pelvica.jpg";
-import pelvica2 from "../../../assets/All-services-imgs/pelv-2.jpg";
-import ortognatica from "../../../assets/All-services-imgs/ortognatica.jpeg";
-import depil from "../../../assets/All-services-imgs/depilacao.jpg";
-import depil2 from "../../../assets/All-services-imgs/depilacao-2.jpg";
-import depil3 from "../../../assets/All-services-imgs/depilacao-3.jpg";
-import depil4 from "../../../assets/All-services-imgs/depilacao-4.jpg";
-import limp from "../../../assets/All-services-imgs/limp.jpg";
-import limp2 from "../../../assets/All-services-imgs/limp-2.jpg";
-import limp3 from "../../../assets/All-services-imgs/limp-3.jpg";
-import celulite from "../../../assets/All-services-imgs/celulite.jpg";
-import celulite2 from "../../../assets/All-services-imgs/celulite-2.jpg";
-import tapping from "../../../assets/All-services-imgs/tapping-1.jpg";
-import tapping2 from "../../../assets/All-services-imgs/tapping-2.png";
-import sobrancelha1 from "../../../assets/All-services-imgs/sobrancelha.jpg";
-import sobrancelha2 from "../../../assets/All-services-imgs/sobrancelha-2.jpg";
-import sobrancelha3 from "../../../assets/All-services-imgs/sobrancelha-3.jpg";
-import sobrancelha4 from "../../../assets/All-services-imgs/sobrancelha-4.jpg";
-import luzp from "../../../assets/All-services-imgs/luz-pulsada.jpg";
-import luzp2 from "../../../assets/All-services-imgs/luz-pulsada-2.jpg";
+import orto2 from "../../../../assets/All-services-imgs/orto-2.jpg";
+import orto3 from "../../../../assets/All-services-imgs/orto-3.jpg";
+import orto4 from "../../../../assets/All-services-imgs/orto-4.jpg";
+import orto5 from "../../../../assets/All-services-imgs/orto-5.jpg";
+import orto6 from "../../../../assets/All-services-imgs/orto-6.jpg";
+import oro from "../../../../assets/All-services-imgs/oro-1.jpg";
+import oro2 from "../../../../assets/All-services-imgs/oro2.jpg";
+import oro3 from "../../../../assets/All-services-imgs/oro-3.jpg";
+import oro4 from "../../../../assets/All-services-imgs/oro-4.jpg";
+import masso from "../../../../assets/All-services-imgs/masso.jpg";
+import masso2 from "../../../../assets/All-services-imgs/masso-2.jpg";
+import masso3 from "../../../../assets/All-services-imgs/masso-3.jpg";
+import masso4 from "../../../../assets/All-services-imgs/masso-4.jpg";
+import acun from "../../../../assets/acupuntura.jpg";
+import acun2 from "../../../../assets/All-services-imgs/acupuntura-2.jpg";
+import fisio1 from "../../../../assets/All-services-imgs/fisio1.jpg";
+import fisio2 from "../../../../assets/All-services-imgs/fisio2.jpg";
+import fisio3 from "../../../../assets/All-services-imgs/fisio3.jpg";
+import fisio4 from "../../../../assets/All-services-imgs/fisio4.jpg";
+import ventosa from "../../../../assets/All-services-imgs/ventosa.jpg";
+import ventosa2 from "../../../../assets/All-services-imgs/ventosa-2.jpg";
+import ventosa3 from "../../../../assets/All-services-imgs/ventosa-3.jpg";
+import linfatica from "../../../../assets/All-services-imgs/linfatica.jpg";
+import linfatica2 from "../../../../assets/All-services-imgs/linf-2.jpg";
+import linfatica3 from "../../../../assets/All-services-imgs/linf-3.jpg";
+import pelvica from "../../../../assets/All-services-imgs/pelvica.jpg";
+import pelvica2 from "../../../../assets/All-services-imgs/pelv-2.jpg";
+import ortognatica from "../../../../assets/All-services-imgs/ortognatica.jpeg";
+import depil from "../../../../assets/All-services-imgs/depilacao.jpg";
+import depil2 from "../../../../assets/All-services-imgs/depilacao-2.jpg";
+import depil3 from "../../../../assets/All-services-imgs/depilacao-3.jpg";
+import depil4 from "../../../../assets/All-services-imgs/depilacao-4.jpg";
+import limp from "../../../../assets/All-services-imgs/limp.jpg";
+import limp2 from "../../../../assets/All-services-imgs/limp-2.jpg";
+import limp3 from "../../../../assets/All-services-imgs/limp-3.jpg";
+import celulite from "../../../../assets/All-services-imgs/celulite.jpg";
+import celulite2 from "../../../../assets/All-services-imgs/celulite-2.jpg";
+import tapping from "../../../../assets/All-services-imgs/tapping-1.jpg";
+import tapping2 from "../../../../assets/All-services-imgs/tapping-2.png";
+import sobrancelha1 from "../../../../assets/All-services-imgs/sobrancelha.jpg";
+import sobrancelha2 from "../../../../assets/All-services-imgs/sobrancelha-2.jpg";
+import sobrancelha3 from "../../../../assets/All-services-imgs/sobrancelha-3.jpg";
+import sobrancelha4 from "../../../../assets/All-services-imgs/sobrancelha-4.jpg";
+import luzp from "../../../../assets/All-services-imgs/luz-pulsada.jpg";
+import luzp2 from "../../../../assets/All-services-imgs/luz-pulsada-2.jpg";
 import "./All.css";
 
 Modal.setAppElement("#root");
@@ -48,7 +58,7 @@ export function AllServices() {
     {
       id: 1,
       title: "Fisioterapia Ortopédica",
-      images: [orto, fisio1, fisio2],
+      images: [fisio2, fisio1, fisio3, fisio4],
       description: `Essa área da fisioterapia trata e previne lesões musculo-esqueléticas, prevenindo e aliviando a redução da rigidez articular, melhora do fortalecimento e alongamento muscular, coordenação, equilíbrio e propriocepção.
 
       Previne cirurgias ortopédicas, diminui edemas articulares, reduz os riscos de quedas e corrige alterações posturais. O protocolo de tratamento é individualizado e realizado após avaliação, investigando a origem de cada patologia.
@@ -60,7 +70,7 @@ export function AllServices() {
     {
       id: 2,
       title: "Fisioterapia Orofacial",
-      images: [oro, oro2],
+      images: [oro, oro2, oro3, oro4],
       description: `A Fisioterapia Orofacial cuida das estruturas da face, cabeça, pescoço e boca, como músculos, articulações e nervos.
 
       Ideal para quem sofre de dores na mandíbula, disfunções na ATM, bruxismo, dificuldades de mastigação e fala. Oferece alívio e melhora na qualidade de vida.
@@ -74,7 +84,7 @@ export function AllServices() {
     {
       id: 3,
       title: "Massoterapia",
-      images: [masso, masso2],
+      images: [masso, masso2, masso3, masso4],
       description: `A Massoterapia consiste em técnicas de manipulação corporal que promovem o equilíbrio corporal e energético, além de proporcionar uma sensação geral de bem-estar.
 
       Seus objetivos incluem a prevenção e restauração do estado físico e mental, alívio de dores, prevenção e tratamento de lesões, além de um propósito relaxante, onde os movimentos relaxam a musculatura e atuam no Sistema Nervoso Central.
@@ -94,7 +104,7 @@ export function AllServices() {
     {
       id: 5,
       title: "Ventosaterapia",
-      images: [ventosa, ventosa2],
+      images: [ventosa, ventosa2, ventosa3],
       description: `A Ventosaterapia é uma técnica terapêutica da Medicina Tradicional Chinesa que utiliza copos de vidro ou acrílico para ativar a circulação, eliminar toxinas e melhorar o funcionamento dos órgãos.
 
       Essa terapia auxilia no tratamento de dores musculares, lombalgias, artrite, hipertensão, gripe, problemas digestivos, e também pode ser usada com objetivos estéticos.`,
@@ -125,7 +135,7 @@ export function AllServices() {
     {
       id: 8,
       title: "Cirurgia Ortognática",
-      images: [ortognatica, orto2],
+      images: [ortognatica, orto2, orto3, orto4, orto5, orto6],
       description: `A Cirurgia Ortognática corrige irregularidades faciais e maxilomandibulares, melhorando a mastigação, respiração, fala, e a estética facial.
 
       A fisioterapia atua no pós-operatório para prevenir aderências, reduzir edema, recuperar movimentos articulares e restabelecer a sensibilidade facial.`,
@@ -242,7 +252,7 @@ export function AllServices() {
           <p>{selectedService.description}</p>
           <div className="modal-button">
             <a
-              href={`https://wa.me/5511999999999?text=${encodeURIComponent(
+              href={`https://wa.me/556130201781?text=${encodeURIComponent(
                 selectedService.whatsappMessage
               )}`}
               rel="noopener noreferrer"
@@ -250,7 +260,7 @@ export function AllServices() {
             >
               Agende já!
             </a>
-            <button onClick={() => setSelectedService(null)}>Fechar</button>
+            <button onClick={() => setSelectedService(null)}>Voltar</button>
           </div>
         </Modal>
       )}

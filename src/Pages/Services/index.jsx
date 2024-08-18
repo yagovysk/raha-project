@@ -1,11 +1,11 @@
-import { Menu } from "../../Main-components/Menu/Menu";
-import { AllServices } from "./Components-services/AllServices";
+import { MenuService } from "./Components-services/Menu/MenuService.jsx";
+import { AllServices } from "./Components-services/All-Services/AllServices.jsx";
 import "./Services.css";
 
 export function Services() {
   return (
     <section>
-      <Menu />
+      <MenuService />
       <AllServices />
     </section>
   );

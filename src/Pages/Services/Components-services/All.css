@@ -143,4 +143,12 @@ button {
   .service-card .imgs {
     width: 12.5rem;
   }
+  .modal-content p {
+    font-size: 0.7rem;
+    padding: 1rem;
+  }
+  .container-imgs img {
+    width: 20rem;
+    height: 20rem;
+  }
 }

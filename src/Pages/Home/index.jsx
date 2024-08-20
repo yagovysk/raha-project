@@ -1,5 +1,6 @@
 import { Menu } from "../../Main-components/Menu/Menu";
 import { About } from "./Components-home/About/About";
+import { Depoiments } from "./Components-home/Depoiments/Depoiments";
 import { Discount } from "./Components-home/Discount/Discount";
 import { ServicesCard } from "./Components-home/Services-card/ServicesCard";
 import { Start } from "./Components-home/Start/Start";
@@ -13,6 +14,7 @@ export function Home() {
       <About />
       <Discount />
       <ServicesCard />
+      <Depoiments />
     </main>
   );
 }

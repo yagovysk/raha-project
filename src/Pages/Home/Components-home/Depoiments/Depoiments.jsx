@@ -1,0 +1,80 @@
+import React from "react";
+import { useMediaQuery } from "react-responsive";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import foto1 from "../../../../assets/perfil-1.png";
+import foto2 from "../../../../assets/perfil-2.png";
+import foto3 from "../../../../assets/perfil-1.png";
+import { FaGoogle } from "react-icons/fa";
+import "./Depoiments.css";
+
+export function Depoiments() {
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
+  const depoiments = [
+    {
+      stars: "★★★★★",
+      text: "Melhores procedimentos. Podem ir que vale à pena, cuidar da saúde é sempre bom!",
+      img: foto1,
+      name: "Carla Pinheiro",
+    },
+    {
+      stars: "★★★★★",
+      text: "Empresa super confiável, cuidam muito bem dos seus clientes!! Recomendo demaiss!!",
+      img: foto2,
+      name: "Tatiana Pinheiro",
+    },
+    {
+      stars: "★★★★★",
+      text: "Virei cliente fiel da clínica",
+      img: foto3,
+      name: "Matheus Oliveira",
+    },
+  ];
+
+  return (
+    <section id="depoiments" className="section-depoiments">
+      <h2>Avaliações</h2>
+      {isMobile ? (
+        <Carousel
+          className="about-carousel"
+          showThumbs={false}
+          showStatus={false}
+          infiniteLoop
+          autoPlay
+        >
+          {depoiments.map((depoiment, index) => (
+            <div key={index} className="card-depoiment">
+              <h3>{depoiment.stars}</h3>
+              <p>{depoiment.text}</p>
+              <div className="about-perfil">
+                <img src={depoiment.img} alt={depoiment.name} />
+                <h4>{depoiment.name}</h4>
+              </div>
+            </div>
+          ))}
+        </Carousel>
+      ) : (
+        <div className="depoiments-cards">
+          {depoiments.map((depoiment, index) => (
+            <div key={index} className="card-depoiment">
+              <h3>{depoiment.stars}</h3>
+              <p>{depoiment.text}</p>
+              <div className="about-perfil">
+                <img src={depoiment.img} alt={depoiment.name} />
+                <h4>{depoiment.name}</h4>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+      <a
+        className="avaliation"
+        href="https://www.google.com/search?q=raha+clinica&sca_esv=7b18b02be1ed2b18&rlz=1C1CHBD_pt-PTBR1101BR1101&sxsrf=ADLYWIKwQE5nDc5evy1fK_4RKoZouvzJlA%3A1724174647788&ei=N9HEZuLqL47E5OUP97Gj4Qw&ved=0ahUKEwii4qWLi4SIAxUOIrkGHffYKMwQ4dUDCA8&uact=5&oq=raha+clinica&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHJhaGEgY2xpbmljYTIOEC4YFhjHARgKGB4YrwEyCBAAGAUYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yCBAAGAgYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yCBAAGAgYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yHRAuGBYYxwEYChgeGK8BGJcFGNwEGN4EGOAE2AECSKoTUKAHWNoOcAF4AZABAJgBuwGgAeoKqgEDMC44uAEDyAEA-AEBmAIJoAKJC8ICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgITEC4YgAQYsAMYQxjIAxiKBdgBAcICBRAAGIAEwgINEAAYgAQYsQMYgwEYCsICBxAAGIAEGArCAg4QLhiABBjHARiOBRivAcICBxAAGIAEGA3CAgoQABiABBjHAxgNwgIIEAAYgAQYywHCAg4QLhiABBjHARjLARivAcICBhAAGA0YHsICCBAAGBYYChgewgIIEAAYChgNGB7CAgYQABgWGB7CAggQABgWGB4YD8ICChAAGAoYDRgeGA-YAwCIBgGQBgi6BgQIARgIugYGCAIQARgUkgcDMS44oAfcVA&sclient=gws-wiz-serp"
+        target="blank"
+      >
+        <FaGoogle /> Avalie a gente!
+      </a>
+    </section>
+  );
+}

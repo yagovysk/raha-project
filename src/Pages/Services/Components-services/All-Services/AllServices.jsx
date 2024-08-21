@@ -47,6 +47,11 @@ import sobrancelha3 from "../../../../assets/All-services-imgs/sobrancelha-3.jpg
 import sobrancelha4 from "../../../../assets/All-services-imgs/sobrancelha-4.jpg";
 import luzp from "../../../../assets/All-services-imgs/luz-pulsada.jpg";
 import luzp2 from "../../../../assets/All-services-imgs/luz-pulsada-2.jpg";
+import podo from "../../../../assets/All-services-imgs/podo-1.jpg";
+import podo2 from "../../../../assets/All-services-imgs/podo-2.jpg";
+import podo3 from "../../../../assets/All-services-imgs/podo-3.jpg";
+import podo4 from "../../../../assets/All-services-imgs/podo-4.jpg";
+import podo5 from "../../../../assets/All-services-imgs/podo-5.jpg";
 import "./All.css";
 
 Modal.setAppElement("#root");
@@ -198,6 +203,14 @@ export function AllServices() {
       description:
         "Experimente a suavidade duradoura com a Depilação a Luz Pulsada! Essa tecnologia avançada elimina os pelos de forma eficaz e segura, proporcionando uma pele lisa e macia por muito mais tempo. Ideal para quem busca praticidade e resultados duradouros, a luz pulsada atua diretamente na raiz do pelo, reduzindo seu crescimento ao longo das sessões. Diga adeus aos métodos tradicionais e aproveite o conforto de uma depilação sem irritações e com menos dor. Agende sua sessão agora e sinta a diferença!",
       whatsappMessage: "Olá, gostaria de agendar uma sessão de Luz Pulsada.",
+    },
+    {
+      id: 15,
+      title: "Podologia",
+      images: [podo, podo2, podo3, podo4, podo5],
+      description:
+        "Seus pés merecem atenção especial! Oferecemos serviços de podologia completos para tratar calosidades, unhas encravadas e outros problemas que afetam sua saúde e bem-estar. Nossos profissionais são especializados em cuidar da saúde dos seus pés, proporcionando conforto e alívio imediato. Agende sua consulta hoje e sinta a diferença! 👣",
+      whatsappMessage: "Olá, gostaria de agendar uma sessão de Podologia.",
     },
   ];
 

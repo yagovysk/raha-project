@@ -2,7 +2,7 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import foto1 from "../../../../assets/perfil-1.png";
+import foto1 from "../../../../assets/perfil-3.png";
 import foto2 from "../../../../assets/perfil-2.png";
 import foto3 from "../../../../assets/perfil-1.png";
 import { FaGoogle } from "react-icons/fa";
@@ -14,21 +14,21 @@ export function Depoiments() {
   const depoiments = [
     {
       stars: "★★★★★",
-      text: "Melhores procedimentos. Podem ir que vale à pena, cuidar da saúde é sempre bom!",
+      text: "Equipe maravilhosa, espaço agradável, me recuperando no melhor lugar.",
       img: foto1,
-      name: "Carla Pinheiro",
+      name: "Vitória Maria",
     },
     {
       stars: "★★★★★",
-      text: "Empresa super confiável, cuidam muito bem dos seus clientes!! Recomendo demaiss!!",
+      text: "Com certeza voltarei mais vezes e super recomendo a clínica!",
       img: foto2,
-      name: "Tatiana Pinheiro",
+      name: "Karoline Ferraz",
     },
     {
       stars: "★★★★★",
       text: "Virei cliente fiel da clínica",
       img: foto3,
-      name: "Matheus Oliveira",
+      name: "Guilherme Salviano Campelo",
     },
   ];
 

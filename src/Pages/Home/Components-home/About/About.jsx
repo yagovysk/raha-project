@@ -39,7 +39,9 @@ export function About() {
         </div>
       </div>
       <div className="container-about-img">
-        <img className="img-about" src={img} alt="" />
+        <a href="https://www.instagram.com/rahaclin/" target="blank_">
+          <img className="img-about" src={img} alt="Imagem da clínica Raha" />
+        </a>
       </div>
     </section>
   );

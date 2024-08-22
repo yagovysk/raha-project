@@ -6,26 +6,22 @@ export function Discount() {
     <section>
       <div className="text-slide" id="descontos">
         <h3>
-          Promoção mês de <div className="span">Agosto</div>
+          Promoções agende pelo <div className="span">Site</div>
         </h3>
         <article className="article-slide">
           <p className="discount-paragraph">
             Ganhe desconto na sessão de Fisioterapia
           </p>
-          <p className="paragraph-discount">
-            de <div className="price">R$ 90,00</div> por R$ 85,00
-          </p>
+          <p className="paragraph-discount">garanta já 5% de desconto</p>
         </article>
         <article className="article-slide">
           <p className="discount-paragraph">
             Ganhe desconto na Limpeza de pele
           </p>
-          <p className="paragraph-discount">
-            de <div className="price">R$ 80,00</div> por R$ 75,00
-          </p>
+          <p className="paragraph-discount">garanta já 5% de desconto</p>
         </article>
         <a
-          href="https://wa.me/556130201781?text=Olá, vim pelo site, gostaria de garantir meu desconto do mês de Agosto."
+          href="https://wa.me/556130201781?text=Olá, vim pelo site, gostaria de garantir meu desconto na fisioterapia/limpeza de pele."
           target="blank"
         >
           <FaLink className="discount-icon" /> Garanta já o seu desconto!

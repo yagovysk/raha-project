@@ -29,7 +29,6 @@ import linfatica2 from "../../../../assets/All-services-imgs/linf-2.jpg";
 import linfatica3 from "../../../../assets/All-services-imgs/linf-3.jpg";
 import pelvica from "../../../../assets/All-services-imgs/pelvica.jpg";
 import pelvica2 from "../../../../assets/All-services-imgs/pelv-2.jpg";
-import ortognatica from "../../../../assets/All-services-imgs/ortognatica.jpeg";
 import depil from "../../../../assets/All-services-imgs/depilacao.jpg";
 import depil2 from "../../../../assets/All-services-imgs/depilacao-2.jpg";
 import depil3 from "../../../../assets/All-services-imgs/depilacao-3.jpg";
@@ -139,9 +138,9 @@ export function AllServices() {
     },
     {
       id: 8,
-      title: "Cirurgia Ortognática",
-      images: [ortognatica, orto2, orto3, orto4, orto5, orto6],
-      description: `A Cirurgia Ortognática corrige irregularidades faciais e maxilomandibulares, melhorando a mastigação, respiração, fala, e a estética facial.
+      title: "Pós-operatório cirurgia ortognática",
+      images: [orto2, orto3, orto4, orto5, orto6],
+      description: `Recupere-se com segurança e cuidado especializado na nossa clínica com os melhores serviços para pós-operatório para cirurgia ortognática. Nossa equipe está pronta para oferecer suporte completo, aliviando o desconforto e acelerando sua recuperação com técnicas personalizadas. Confie em quem entende as necessidades do seu pós-operatório e garanta uma recuperação tranquila e eficaz.
 
       A fisioterapia atua no pós-operatório para prevenir aderências, reduzir edema, recuperar movimentos articulares e restabelecer a sensibilidade facial.`,
       whatsappMessage:

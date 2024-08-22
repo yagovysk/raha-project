@@ -1,6 +1,7 @@
 .section-about {
   background: #f6f2e7;
   display: flex;
+
   justify-content: center;
   padding: 4rem 0;
   align-items: center;
@@ -8,9 +9,18 @@
 }
 .container-about-img {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+  height: 38rem;
+  margin-top: -4rem;
+}
+.container-about-img a {
+  display: flex;
   padding: 1rem;
-  padding-right: 5rem;
+  transition: 0.4s ease;
+}
+.container-about-img a:hover {
+  transform: scale(1.02);
 }
 .img-about {
   width: 60rem !important;
@@ -57,7 +67,7 @@
   .container-about-img {
     align-items: center;
     justify-content: center;
-    padding: 4rem;
+    margin-top: 0;
   }
   .section-about .img-about {
     width: 20rem !important;

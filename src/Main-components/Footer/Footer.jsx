@@ -16,7 +16,7 @@ export function Footer() {
           target="blank_"
         >
           <FaMapMarkedAlt className="loc-icon" /> St. Hab. Vicente Pires Rua 04
-          Lote 5/7, Loja 01 - Vicente Pires, Brasília - DF, 72006-290
+          Lote 5/7, Loja 01 - Brasília - DF, 72006-290
         </a>
         <article className="convenios-article">
           <h3>Convênios Disponíveis</h3>

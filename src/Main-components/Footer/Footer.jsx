@@ -19,7 +19,7 @@ export function Footer() {
           Lote 5/7, Loja - Vicente Pires, Brasília - DF, 72006-290
         </a>
         <article className="convenios-article">
-          <h3>Convênios que aceitamos</h3>
+          <h3>Convênios Disponíveis</h3>
           <div className="container-convenios">
             <p>OAB</p>
             <p>Inas (GDF Saúde)</p>

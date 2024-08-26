@@ -48,7 +48,7 @@ export function Depoiments() {
           infinite={true}
           autoPlay={true}
           autoPlaySpeed={3000}
-          showDots={true}
+          showDots={false}
           containerClass="carousel-container"
           itemClass="carousel-item"
         >

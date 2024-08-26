@@ -1,5 +1,6 @@
 import linha from "../../../../assets/linha-about.png";
 import img from "../../../../assets/img-about.jpg";
+import { FaInstagram } from "react-icons/fa";
 import "./About.css";
 
 export function About() {
@@ -31,7 +32,7 @@ export function About() {
           </p>
           <p>
             Com carinho, Dra. Bianca Campelo e Equipe Raha. A sua saúde com
-            conforto, começa aqui! ✨
+            conforto, começa aqui! ✨
           </p>
         </article>
         <div className="linha-container">
@@ -39,8 +40,15 @@ export function About() {
         </div>
       </div>
       <div className="container-about-img">
-        <a href="https://www.instagram.com/rahaclin/" target="blank_">
-          <img className="img-about" src={img} alt="Imagem da clínica Raha" />
+        <a
+          href="https://www.instagram.com/rahaclin/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="overlay">
+            <img className="img-about" src={img} alt="Imagem da clínica Raha" />
+            <FaInstagram className="instagram-icon" />
+          </div>
         </a>
       </div>
     </section>

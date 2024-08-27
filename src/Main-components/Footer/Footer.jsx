@@ -21,9 +21,73 @@ export function Footer() {
         <article className="convenios-article">
           <h3>Convênios Disponíveis</h3>
           <div className="container-convenios">
-            <p>OAB</p>
-            <p>Inas (GDF Saúde)</p>
-            <p>Plan - Assiste</p>
+            <ul>
+              <li>Plan - Assiste</li>
+              <li>Inas (GDF Saúde)</li>
+              <li>OAB</li>
+              <li>AFEB BRASAL</li>
+              <li>AFFEGO</li>
+            </ul>
+            <ul>
+              <li>ANAFE SAÚDE</li>
+              <li>ASETE (ASTE)</li>
+              <li>BACEN</li>
+              <li>BRB (SAÚDE BRB)</li>
+              <li>CAEME - GO</li>
+            </ul>
+            <ul>
+              <li>CAESAN</li>
+              <li>CAMED</li>
+              <li>CARE PLUS</li>
+              <li>CASEC (CODEVASF)</li>
+              <li>CASEMBRAPA (EMBRAPA)</li>
+            </ul>
+            <ul>
+              <li>CNTI</li>
+              <li>CONAB</li>
+              <li>EMBRATEL (TELOS)</li>
+              <li>EVIDA (ELETRONORTE)</li>
+              <li>FAPES (BNDES)</li>
+            </ul>
+            <ul>
+              <li>FASCAL</li>
+              <li>GAMA SAÚDE</li>
+              <li>GDF SAÚDE</li>
+              <li>GRAVIA</li>
+              <li>INAS (GDF SAÚDE)</li>
+            </ul>
+            <ul>
+              <li>LIFE EMPRESARIAL</li>
+              <li>NOTRE DAME</li>
+              <li>OMINT SAÚDE</li>
+              <li>PF SAÚDE (POLÍCIA FEDERAL)</li>
+              <li>PLAN ASSISTE (MPU)</li>
+            </ul>
+            <ul>
+              <li>PLAS/JMU (STM)</li>
+              <li>POSTAL SAÚDE (ECT)</li>
+              <li>PROASA</li>
+              <li>PRÓ-SAÚDE (CÂMARA DOS DEPUTADOS)</li>
+              <li>PRÓ-SAÚDE (TJDFT)</li>
+            </ul>
+            <ul>
+              <li>PRÔ-SER (STJ)</li>
+              <li>PRÓ-SOCIAL (TRF)</li>
+              <li>REAL GRANDEZA (DEMAIS PLANOS)</li>
+              <li>REAL GRANDEZA (SALVUS E SALUTEM)</li>
+              <li>SAÚDE CAIXA</li>
+            </ul>
+            <ul>
+              <li>SAÚDE PETROBRAS</li>
+              <li>SERPRO</li>
+              <li>SIS SENADO</li>
+              <li>STF-MED (STF)</li>
+              <li>TRE SAÚDE</li>
+            </ul>
+            <ul>
+              <li>TRT SAÚDE</li>
+              <li>UNAFISCO (SINDIFISCO)</li>
+            </ul>
           </div>
         </article>
         <h3>Nossos horários</h3>

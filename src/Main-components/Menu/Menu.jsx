@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "./Menu.css";
 import logo from "../../assets/logo.svg";
@@ -17,6 +17,18 @@ export function Menu() {
   const closeMenu = () => {
     setMenuOpen(false);
   };
+
+  // Fechar o menu ao redimensionar a tela (corrige o problema ao virar o dispositivo)
+  useEffect(() => {
+    const handleResize = () => {
+      setMenuOpen(false);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <nav className="nav-menu">

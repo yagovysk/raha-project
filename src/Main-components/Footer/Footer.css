@@ -28,6 +28,11 @@
   color: #fff;
   font-family: "Comfortaa", sans-serif;
 }
+.footer-nav li {
+  color: #fff;
+  font-family: "Comfortaa", sans-serif;
+  text-align: left;
+}
 .footer-nav a {
   text-decoration: none;
   font-family: "Comfortaa", sans-serif;
@@ -48,9 +53,12 @@
   gap: 1rem;
 }
 .container-convenios {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 .footer-article {
   display: flex;
@@ -106,5 +114,9 @@
   }
   .container-convenios {
     text-align: center;
+  }
+  .container-convenios {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
   }
 }

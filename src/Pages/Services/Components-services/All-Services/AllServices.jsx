@@ -144,16 +144,15 @@ export function AllServices() {
 
       A fisioterapia atua no pós-operatório para prevenir aderências, reduzir edema, recuperar movimentos articulares e restabelecer a sensibilidade facial.`,
       whatsappMessage:
-        "Olá, gostaria de agendar uma sessão de Cirurgia ortognática.",
+        "Olá, gostaria de agendar uma sessão para Pós-operatório de Cirurgia ortognática.",
     },
     {
       id: 9,
-      title: "Depilação",
-      images: [depil, depil2, depil3, depil4],
-      description: `A depilação a cera e a epilação removem os pelos pela raiz, proporcionando uma pele lisa por mais tempo, entre 3 a 6 semanas.
-
-      Esses métodos oferecem vantagens como esfoliação da pele, deixando-a mais suave e macia, e resultados mais duradouros em comparação com a depilação tradicional com lâmina.`,
-      whatsappMessage: "Olá, gostaria de agendar uma sessão de Depilação.",
+      title: "Luz Pulsada",
+      images: [luzp, luzp2],
+      description:
+        "Experimente a suavidade duradoura com a Depilação a Luz Pulsada! Essa tecnologia avançada elimina os pelos de forma eficaz e segura, proporcionando uma pele lisa e macia por muito mais tempo. Ideal para quem busca praticidade e resultados duradouros, a luz pulsada atua diretamente na raiz do pelo, reduzindo seu crescimento ao longo das sessões. Diga adeus aos métodos tradicionais e aproveite o conforto de uma depilação sem irritações e com menos dor. Agende sua sessão agora e sinta a diferença!",
+      whatsappMessage: "Olá, gostaria de agendar uma sessão de Luz Pulsada.",
     },
     {
       id: 10,
@@ -189,27 +188,29 @@ export function AllServices() {
     },
     {
       id: 13,
-      title: "Sobrancelha",
+      title: "Design de Sobrancelhas",
       images: [sobrancelha1, sobrancelha2, sobrancelha3, sobrancelha4],
       description:
         "Realce a beleza natural das suas sobrancelhas com o Brow Lamination! Essa técnica inovadora proporciona sobrancelhas mais volumosas, alinhadas e com um acabamento perfeito, sem a necessidade de maquiagem. O Brow Lamination é ideal para quem deseja uma aparência elegante e natural, destacando o olhar e harmonizando o rosto. Agende agora mesmo e descubra como esse tratamento pode transformar seu visual, elevando sua autoestima e deixando você ainda mais confiante!",
-      whatsappMessage: "Olá, gostaria de agendar uma sessão de Sobrancelha.",
+      whatsappMessage:
+        "Olá, gostaria de agendar uma sessão de Design de Sobrancelhas.",
     },
     {
       id: 14,
-      title: "Luz Pulsada",
-      images: [luzp, luzp2],
-      description:
-        "Experimente a suavidade duradoura com a Depilação a Luz Pulsada! Essa tecnologia avançada elimina os pelos de forma eficaz e segura, proporcionando uma pele lisa e macia por muito mais tempo. Ideal para quem busca praticidade e resultados duradouros, a luz pulsada atua diretamente na raiz do pelo, reduzindo seu crescimento ao longo das sessões. Diga adeus aos métodos tradicionais e aproveite o conforto de uma depilação sem irritações e com menos dor. Agende sua sessão agora e sinta a diferença!",
-      whatsappMessage: "Olá, gostaria de agendar uma sessão de Luz Pulsada.",
-    },
-    {
-      id: 15,
       title: "Podologia",
       images: [podo, podo2, podo3, podo4, podo5],
       description:
         "Seus pés merecem atenção especial! Oferecemos serviços de podologia completos para tratar calosidades, unhas encravadas e outros problemas que afetam sua saúde e bem-estar. Nossos profissionais são especializados em cuidar da saúde dos seus pés, proporcionando conforto e alívio imediato. Agende sua consulta hoje e sinta a diferença! 👣",
       whatsappMessage: "Olá, gostaria de agendar uma sessão de Podologia.",
+    },
+    {
+      id: 15,
+      title: "Depilação",
+      images: [depil, depil2, depil3, depil4],
+      description: `A depilação a cera e a epilação removem os pelos pela raiz, proporcionando uma pele lisa por mais tempo, entre 3 a 6 semanas.
+
+      Esses métodos oferecem vantagens como esfoliação da pele, deixando-a mais suave e macia, e resultados mais duradouros em comparação com a depilação tradicional com lâmina.`,
+      whatsappMessage: "Olá, gostaria de agendar uma sessão de Depilação.",
     },
   ];
 

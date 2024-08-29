@@ -13,21 +13,21 @@ export function Depoiments() {
   const depoiments = [
     {
       stars: "★★★★★",
-      text: "Equipe maravilhosa, espaço agradável, me recuperando no melhor lugar.",
+      text: "Excelente atendimento. Adorei a paciência e a mão leve na aplicação do meu botox.",
       img: foto1,
-      name: "Vitória Maria",
+      name: "Erick Santana",
     },
     {
       stars: "★★★★★",
-      text: "Com certeza voltarei mais vezes e super recomendo a clínica!",
+      text: "Lugar top atendimento maravilhoso",
       img: foto2,
-      name: "Karoline Ferraz",
+      name: "Anderson Júnior",
     },
     {
       stars: "★★★★★",
-      text: "Virei cliente fiel da clínica",
+      text: "Excelente atendimento! Amei muito essa clínica, todos os profissionais são incríveis. Recomento demais!!!!",
       img: foto3,
-      name: "Guilherme Salviano Campelo",
+      name: "Inaiá Silva",
     },
   ];
 

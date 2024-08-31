@@ -19,72 +19,69 @@ export function Footer() {
           Lote 5/7, Loja 01 - Brasília - DF, 72006-290
         </a>
         <article className="convenios-article">
-          <h3>Convênios Disponíveis</h3>
+          <h3>Convênios e Associados</h3>
           <div className="container-convenios">
             <ul>
-              <li>Plan - Assiste</li>
-              <li>Inas (GDF Saúde)</li>
-              <li>OAB</li>
               <li>AFEB BRASAL</li>
               <li>AFFEGO</li>
-            </ul>
-            <ul>
               <li>ANAFE SAÚDE</li>
               <li>ASETE (ASTE)</li>
               <li>BACEN</li>
-              <li>BRB (SAÚDE BRB)</li>
-              <li>CAEME - GO</li>
             </ul>
             <ul>
+              <li>BRB (SAÚDE BRB)</li>
+              <li>CAEME - GO</li>
               <li>CAESAN</li>
               <li>CAMED</li>
               <li>CARE PLUS</li>
-              <li>CASEC (CODEVASF)</li>
-              <li>CASEMBRAPA (EMBRAPA)</li>
             </ul>
             <ul>
+              <li>CASEC (CODEVASF)</li>
+              <li>CASEMBRAPA (EMBRAPA)</li>
               <li>CNTI</li>
               <li>CONAB</li>
               <li>EMBRATEL (TELOS)</li>
-              <li>EVIDA (ELETRONORTE)</li>
-              <li>FAPES (BNDES)</li>
             </ul>
             <ul>
+              <li>EVIDA (ELETRONORTE)</li>
+              <li>FAPES (BNDES)</li>
               <li>FASCAL</li>
               <li>GAMA SAÚDE</li>
               <li>GDF SAÚDE</li>
-              <li>GRAVIA</li>
-              <li>INAS (GDF SAÚDE)</li>
             </ul>
             <ul>
+              <li>GRAVIA</li>
+              <li>INAS (GDF SAÚDE)</li>
               <li>LIFE EMPRESARIAL</li>
               <li>NOTRE DAME</li>
+              <li>OAB</li>
+            </ul>
+            <ul>
               <li>OMINT SAÚDE</li>
               <li>PF SAÚDE (POLÍCIA FEDERAL)</li>
               <li>PLAN ASSISTE (MPU)</li>
+              <li>Plan - Assiste</li>
+              <li>PLAS/JMU (STM)</li>
             </ul>
             <ul>
-              <li>PLAS/JMU (STM)</li>
               <li>POSTAL SAÚDE (ECT)</li>
-              <li>PROASA</li>
               <li>PRÓ-SAÚDE (CÂMARA DOS DEPUTADOS)</li>
               <li>PRÓ-SAÚDE (TJDFT)</li>
+              <li>PRÓ-SOCIAL (TRF)</li>
+              <li>PRÔ-SER (STJ)</li>
             </ul>
             <ul>
-              <li>PRÔ-SER (STJ)</li>
-              <li>PRÓ-SOCIAL (TRF)</li>
+              <li>PROASA</li>
               <li>REAL GRANDEZA (DEMAIS PLANOS)</li>
               <li>REAL GRANDEZA (SALVUS E SALUTEM)</li>
               <li>SAÚDE CAIXA</li>
+              <li>SAÚDE PETROBRAS</li>
             </ul>
             <ul>
-              <li>SAÚDE PETROBRAS</li>
               <li>SERPRO</li>
               <li>SIS SENADO</li>
               <li>STF-MED (STF)</li>
               <li>TRE SAÚDE</li>
-            </ul>
-            <ul>
               <li>TRT SAÚDE</li>
               <li>UNAFISCO (SINDIFISCO)</li>
             </ul>

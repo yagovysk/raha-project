@@ -12,10 +12,6 @@ export function Start() {
           content="Descubra os melhores e mais confiáveis serviços de fisioterapia e estética do Distrito Federal na Raha Saúde e Estética."
         />
         <meta
-          name="google-site-verification"
-          content="L6Y6Sby_XlHEUMToZYAcwNCLejk51LXX2xzu-3t0Y38"
-        />
-        <meta
           name="keywords"
           content="fisioterapia, estética, clínica, saúde, pós-operatório, cirurgia ortognática, DF"
         />
